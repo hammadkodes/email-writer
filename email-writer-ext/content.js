@@ -17,42 +17,7 @@ function findComposeToolbar() {
 }
 
 function createAIButton() {
-    // const button = document.createElement('div');
-    // button.className = 'T-I J-J5-Ji aoO v7 T-I-atl L3';
-    // button.innerHTML = 'AI Reply';
-    // button.setAttribute('role', 'button');
-    // button.setAttribute('data-tooltip', 'Generate AI Reply');
-
-    // // Updated inline styles
-    // button.style.cssText = `
-    //     margin-right: 8px;
-    //     padding: 0 16px;
-    //     height: 36px;
-    //     border-radius: 18px;
-    //     background-color: #0b57d0;
-    //     color: white;
-    //     font-weight: bold;
-    //     cursor: pointer;
-    //     display: inline-flex;
-    //     align-items: center;
-    //     justify-content: center;
-    //     border: none;
-    //     font-size: 14px;
-    //     vertical-align: middle;
-    //     transition: background-color 0.3s;
-    // `;
     
-    // // Hover effect
-    // button.addEventListener('mouseover', () => {
-    //     button.style.backgroundColor = '#3367d6';
-    // });
-    // button.addEventListener('mouseout', () => {
-    //     button.style.backgroundColor = '#0b57d0';
-    // });
-    
-    // return button;
-
-
     const button = document.createElement('div');
 
     // Using the exact same Gmail button classes

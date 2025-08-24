@@ -1,8 +1,14 @@
 {
-  "name": "Email Writer Assistant",
-  "description": "AI-powered assistant to help you write emails more effectively.",
-  "version": "1.0",
+  "name": "ReplyMate AI",
+  "description": "Smart AI-powered assistant that helps you write, improve, and send better email replies instantly.",
+  "version": "1.0.0",
   "manifest_version": 3,
+   "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
   "permissions": [
     "storage",
     "activeTab"
